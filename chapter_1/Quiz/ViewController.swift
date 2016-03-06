@@ -12,6 +12,11 @@ class ViewController: UIViewController {
     
     @IBOutlet var questionLabel:UILabel!
     @IBOutlet var answerLabel: UILabel!
+    override func viewWillAppear(animated: Bool) {
+        super.viewWillAppear(animated)
+        //Sets the label's initial alpha
+        questionLabel.alpha = 0
+    }
     
     let questions: [String]=["From what is cognac made?","What is the Capital of Colombia?", "What is 7+7"]
     let answers: [String]=["Grapes", "Bogota", "14"]
@@ -36,8 +41,13 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         questionLabel.text = questions[currentQuestionIndex]
         }
+    func animateLabelTransitions() {
+        let animationClosure = { () -> Void in
+            self.questionLabel.alpha = 1
+        }
+        UIView.animateWithDuration(0.5, animations: animationClosure)
     }
-
+}
 
 
 
