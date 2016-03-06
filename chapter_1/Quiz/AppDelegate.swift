@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  Quiz
 //
-//  Created by Carlos Bautista on 1/30/16.
-//  Copyright © 2016 Carlos Bautista. All rights reserved.
+//  Created by Carlos Bautista on 2/22/16.
+//  Copyright © 2016 cbautista. All rights reserved.
 //
 
 import UIKit
