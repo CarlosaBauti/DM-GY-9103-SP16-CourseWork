@@ -56,17 +56,19 @@
                             <constraint firstItem="4iw-bq-gbF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="9OQ-f5-NHi"/>
                             <constraint firstItem="jo5-Ge-HWT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FXw-xw-D0m"/>
                             <constraint firstItem="jo5-Ge-HWT" firstAttribute="top" secondItem="ZKp-Pt-gzl" secondAttribute="bottom" constant="72" id="MJU-os-7tQ"/>
+                            <constraint firstItem="ZKp-Pt-gzl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="T5L-sq-r0H"/>
                             <constraint firstItem="rT6-Wo-O8R" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="UH1-er-glS"/>
                             <constraint firstItem="KGx-fz-Hjq" firstAttribute="top" secondItem="jo5-Ge-HWT" secondAttribute="bottom" constant="25" id="dxR-MT-b5B"/>
                             <constraint firstItem="4iw-bq-gbF" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="qno-CB-86L"/>
-                            <constraint firstItem="ZKp-Pt-gzl" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sOc-vR-DPU"/>
                             <constraint firstItem="rT6-Wo-O8R" firstAttribute="top" secondItem="4iw-bq-gbF" secondAttribute="top" id="snE-PZ-qA0"/>
                         </constraints>
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="jo5-Ge-HWT" id="guP-6F-Sdh"/>
                         <outlet property="currentQuestionLabel" destination="4iw-bq-gbF" id="dUV-rt-fyH"/>
+                        <outlet property="currentQuestionLabelCenterXConstraint" destination="9OQ-f5-NHi" id="1uf-xD-f7S"/>
                         <outlet property="nextQuestionLabel" destination="rT6-Wo-O8R" id="L4v-8Y-Cdg"/>
+                        <outlet property="nextQuestionLabelCenterXConstraint" destination="UH1-er-glS" id="E8C-XH-MaQ"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
