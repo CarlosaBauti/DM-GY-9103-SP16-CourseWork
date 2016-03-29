@@ -8,7 +8,7 @@
 
 import UIKit
 
-class counter {
+class counter : NSObject{
 
 var name: String
 var count: Int
@@ -16,6 +16,8 @@ var count: Int
     init (Name: String){
         self.name = Name
         self.count = 0
+        
+        super.init()
     }
 
 }

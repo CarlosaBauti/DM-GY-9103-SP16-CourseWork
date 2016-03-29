@@ -13,6 +13,8 @@
 		2929836D1CA20B800057147B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2929836C1CA20B800057147B /* Assets.xcassets */; };
 		292983701CA20B800057147B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2929836E1CA20B800057147B /* LaunchScreen.storyboard */; };
 		292983781CA20BA00057147B /* counter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292983771CA20BA00057147B /* counter.swift */; };
+		2929837A1CA216F10057147B /* CountersCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292983791CA216F10057147B /* CountersCell.swift */; };
+		2929837C1CA219370057147B /* counters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2929837B1CA219370057147B /* counters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		2929836F1CA20B800057147B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		292983711CA20B800057147B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		292983771CA20BA00057147B /* counter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = counter.swift; sourceTree = "<group>"; };
+		292983791CA216F10057147B /* CountersCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CountersCell.swift; path = ../CountersCell.swift; sourceTree = "<group>"; };
+		2929837B1CA219370057147B /* counters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = counters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,7 @@
 		292983641CA20B800057147B /* Paulistas counter */ = {
 			isa = PBXGroup;
 			children = (
+				292983791CA216F10057147B /* CountersCell.swift */,
 				292983651CA20B800057147B /* AppDelegate.swift */,
 				292983671CA20B800057147B /* ViewController.swift */,
 				292983771CA20BA00057147B /* counter.swift */,
@@ -63,6 +68,7 @@
 				2929836C1CA20B800057147B /* Assets.xcassets */,
 				2929836E1CA20B800057147B /* LaunchScreen.storyboard */,
 				292983711CA20B800057147B /* Info.plist */,
+				2929837B1CA219370057147B /* counters.swift */,
 			);
 			path = "Paulistas counter";
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2929837A1CA216F10057147B /* CountersCell.swift in Sources */,
 				292983781CA20BA00057147B /* counter.swift in Sources */,
 				292983681CA20B800057147B /* ViewController.swift in Sources */,
 				292983661CA20B800057147B /* AppDelegate.swift in Sources */,
+				2929837C1CA219370057147B /* counters.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

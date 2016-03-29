@@ -8,36 +8,37 @@
 
 import UIKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UITableViewController {
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.counters.count
+    var allCounterList: counters!
+    
+    override func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
     }
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell: UITableViewCell = self.tableView.dequeueReusableCellWithIdentifier("cell")!
-        cell.textLabel?.text = self.counters[indexPath.row].name
-        return cell
-    }
-    
-    func tableView(tableView: UITableView, didSelectRowAtIndexPath indexPath: NSIndexPath) {
-    }
-    
-    @IBOutlet var tableView: UITableView!
-
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         self.tableView.registerClass(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        let c = counter(Name: "name")
-        counters.append(c)
     }
-    @IBOutlet var name: UILabel!
-    @IBOutlet var count: UILabel!
-    var counters = [counter]()
     
-    
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .Value1, reuseIdentifier: "UITableViewCell")
+        
+        let counter = counters.AllCounters[indexPath.row]
+        
+        cell.textLabel?.text = counter.name
+        cell.detailTextLabel?.text = "\(counter.value)"
+        
+        return cell
+    }
 
+    
+    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> UITableViewCell
+        Int {
+            return self.allCounterList.allCounters.count
+    }
+    
 
 }
 

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  Paulistas counter
+//  Paulistas_02
 //
 //  Created by Carlos Bautista on 3/22/16.
 //  Copyright © 2016 cbautista. All rights reserved.
@@ -16,10 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        let counterList = counters()
-        let counterController = window!.rootViewController as! ViewController
         
-        counterController.allCounterList = counterList
         
         return true
     }
