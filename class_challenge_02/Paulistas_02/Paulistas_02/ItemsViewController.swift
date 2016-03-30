@@ -8,23 +8,46 @@
 
 import UIKit
 
-class ItemsViewController: UIViewController {
-    var total: Int = 0
+class ItemsViewController: UITableViewController {
+    var items = [Objects(Name: "hh"), Objects(Name: "ii"), Objects(Name: "jj")]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        total = 0
-        count.text = "\(total)"
     }
     
-    @IBOutlet var count: UILabel!
-    @IBAction func add(sender: UIButton){
-        total += 1
-        count.text = "\(total)"
-    }
-    @IBAction func subtract(sender: UIButton){
-        if (total == 0) {return}
-        total -= 1
-        count.text = "\(total)"
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return items.count
     }
     
+    override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+        let cell = UITableViewCell(style: .Subtitle, reuseIdentifier: nil)
+        let item = items[indexPath.row]
+        cell.detailTextLabel?.text = "\(item.count)"
+        cell.textLabel?.text = items[indexPath.row].name
+        return cell
+    }
+
+    
+    @IBAction func addNewItem (sender: AnyObject){
+        let lastRow = tableView.numberOfRowsInSection(0)
+        let indexPath = NSIndexPath(forRow: lastRow, inSection: 0)
+        let newItem = Objects(Name: "New Item")
+        items.append(newItem)
+    }
+    
+    @IBAction func toggleEditingMode (sender: AnyObject){
+        if editing {
+        sender.setTitle ("Edit", forState: .Normal)
+            setEditing (false, animated: true)
+        }
+        else {
+        sender.setTitle("Done", forState: .Normal)
+        
+        setEditing(true, animated: true)
+        
+        }
+    }
+    
+        
 }

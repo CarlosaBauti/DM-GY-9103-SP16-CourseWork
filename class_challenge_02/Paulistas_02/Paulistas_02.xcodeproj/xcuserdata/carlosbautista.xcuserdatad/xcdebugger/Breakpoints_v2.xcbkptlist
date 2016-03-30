@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paulistas_02/ItemCell.swift"
+            timestampString = "480989004.600458"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "ItemCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Paulistas_02.ItemCell.count.getter : Swift.Int"
+                  moduleName = "Paulistas_02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosbautista/Documents/PERSONAL/NYU/IOS_APPS/git_class_repo/DM-GY-9103-SP16-CourseWork/class_challenge_02/Paulistas_02/Paulistas_02/ItemCell.swift"
+                  timestampString = "480989005.496573"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "19">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Paulistas_02.ItemCell.count.setter : Swift.Int"
+                  moduleName = "Paulistas_02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosbautista/Documents/PERSONAL/NYU/IOS_APPS/git_class_repo/DM-GY-9103-SP16-CourseWork/class_challenge_02/Paulistas_02/Paulistas_02/ItemCell.swift"
+                  timestampString = "480989005.498134"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Paulistas_02.ItemCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; Paulistas_02.ItemCell"
+                  moduleName = "Paulistas_02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosbautista/Documents/PERSONAL/NYU/IOS_APPS/git_class_repo/DM-GY-9103-SP16-CourseWork/class_challenge_02/Paulistas_02/Paulistas_02/ItemCell.swift"
+                  timestampString = "480989005.498274"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "80">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Paulistas_02.ItemCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;Paulistas_02.ItemCell&gt;"
+                  moduleName = "Paulistas_02"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/carlosbautista/Documents/PERSONAL/NYU/IOS_APPS/git_class_repo/DM-GY-9103-SP16-CourseWork/class_challenge_02/Paulistas_02/Paulistas_02/ItemCell.swift"
+                  timestampString = "480989005.498387"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "39">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paulistas_02/ItemsViewController.swift"
+            timestampString = "480991823.609085"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "25"
+            endingLineNumber = "25"
+            landmarkName = "tableView(_:cellForRowAtIndexPath:)"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Paulistas_02/ItemsViewController.swift"
+            timestampString = "480989875.510081"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "16"
+            endingLineNumber = "16"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "5">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

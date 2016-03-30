@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		292000DB1CAB41B500520DDE /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292000DA1CAB41B500520DDE /* ItemCell.swift */; };
+		292000DD1CAB4D0600520DDE /* Objects.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292000DC1CAB4D0600520DDE /* Objects.swift */; };
+		292000DF1CAB54A700520DDE /* ObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292000DE1CAB54A700520DDE /* ObjectsViewController.swift */; };
 		2929838A1CA21F4F0057147B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 292983891CA21F4F0057147B /* AppDelegate.swift */; };
 		2929838F1CA21F4F0057147B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2929838D1CA21F4F0057147B /* Main.storyboard */; };
 		292983911CA21F4F0057147B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 292983901CA21F4F0057147B /* Assets.xcassets */; };
@@ -15,6 +18,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		292000DA1CAB41B500520DDE /* ItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		292000DC1CAB4D0600520DDE /* Objects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Objects.swift; sourceTree = "<group>"; };
+		292000DE1CAB54A700520DDE /* ObjectsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObjectsViewController.swift; sourceTree = "<group>"; };
 		292983861CA21F4F0057147B /* Paulistas_02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Paulistas_02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		292983891CA21F4F0057147B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2929838E1CA21F4F0057147B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 				292983921CA21F4F0057147B /* LaunchScreen.storyboard */,
 				292983951CA21F4F0057147B /* Info.plist */,
 				2929839B1CA21FB70057147B /* ItemsViewController.swift */,
+				292000DE1CAB54A700520DDE /* ObjectsViewController.swift */,
+				292000DC1CAB4D0600520DDE /* Objects.swift */,
+				292000DA1CAB41B500520DDE /* ItemCell.swift */,
 			);
 			path = Paulistas_02;
 			sourceTree = "<group>";
@@ -136,7 +145,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				292000DF1CAB54A700520DDE /* ObjectsViewController.swift in Sources */,
+				292000DB1CAB41B500520DDE /* ItemCell.swift in Sources */,
 				2929838A1CA21F4F0057147B /* AppDelegate.swift in Sources */,
+				292000DD1CAB4D0600520DDE /* Objects.swift in Sources */,
 				2929839C1CA21FB70057147B /* ItemsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
